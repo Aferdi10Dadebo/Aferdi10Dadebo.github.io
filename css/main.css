@@ -1248,3 +1248,343 @@ footer {
         display: none;
     }
 }
+
+@media only screen and (min-width: 321px) and (max-width: 600px) {
+  /* CSS rules for small devices */
+    
+    .whyUs,
+    .whyTeam,
+    .whichServices,
+    .whyBuy {
+
+        height: 40px;
+        color: white;
+        font-size: 15.5px;
+        letter-spacing: 0.05em;
+
+    }
+
+    .scrollText p {
+        line-height: 40px;
+    }
+
+    .scrollText p span:nth-of-type(2) {
+        font-size: 15px;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-70%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .page1 .contentWrapper .landingPage {
+        /* border: 1px solid black; */
+        width: 85%;
+        margin: auto;
+        height: calc(100vh - 40px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUs {
+        flex: 3;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aboutUs h1 {
+        font-family: "Helvetica Now", sans-serif;
+        font-size: 27px;
+        letter-spacing: 0.04em;
+        color: red;
+        text-shadow: 0 0.1px 0.1px #494949;
+        background-color: #15161310;
+    }
+
+    .aboutUs h1 span {
+        font-size: 37.5px;
+    }
+
+    .aboutUs h2 {
+        margin-top: -5px;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 22px;
+        letter-spacing: 0.04em;
+        color: white;
+        margin-bottom: 30px;
+        background-color: #15161310;
+    }
+
+    .aboutUs h3 {
+        color: white;
+        background-color: #15161310;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12.5px;
+        letter-spacing: 0.05em;
+        /* font-weight: 600; */
+        line-height: 1.4;
+    }
+
+    .page1 .contentWrapper .aboveLanding {
+        /* border: 1px solid white; */
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .aboveLanding i {
+        display: none;
+    }
+
+    .contactArea {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contactAreaWrapper {
+        background-color: #15161341;
+        border: 1px solid white;
+        border-radius: 13px;
+        width: fit-content;
+        height: fit-content;
+        padding: 18px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialIcons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .socialIcons a {
+        width: 60px;
+        height: 24px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .contactButton {
+        border-radius: 11px;
+        padding: 8px 16px;
+        background-color: darkgreen;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .page2 .ourTeam {
+        width: 100%;
+        height: 200px;
+        background-color: #1d1f1867;
+    }
+
+    .page2 .ourTeam .contentWrapper {
+        width: 90%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+    }
+
+    .ourTeamHeader {
+        display: none;
+    }
+
+    .teamMessage {
+        flex: 4;
+        padding: 0;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+    }
+
+    .contactArea2 {
+        flex: 1.6;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .contactArea2 .contactAreaWrapper {
+        padding: 7px;
+    }
+
+    .contactArea2 .contactAreaWrapper .socialIcons {
+        display: flex;
+        flex-direction: column;
+        /* border: 1.5px solid white; */
+    }
+
+    .contactArea2 .socialIcons a {
+        display: block;
+        margin: 7px;
+        width: 20px;
+        color: white;
+        font-size: 21px;
+    }
+
+    .contactArea2 .contactButton {
+        display: none;
+    }
+
+    .whyTeam .scrollText2 p {
+        line-height: 40px;
+        font-size: 18px;
+    }
+
+    .page2Wrapper .contact {
+        width: 100vw;
+        height: calc(100vh - 240px);
+    }
+
+    .contact .contentWrapper {
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact .row {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .ifarm {
+        display: none;
+    }
+
+    .contact .row .form-c input,
+    textarea {
+        background: rgba(245, 245, 245, 0.3);
+        border: 1.5px solid #ccc;
+        padding: 4.5px;
+        height: 19.5px;
+        width: 97.5%;
+        margin: 9px 0;
+        color: black;
+        font-size: 17.5px;
+    }
+
+    .contact .row .form-c input:nth-of-type(1) {
+        display: none;
+    }
+
+    .contact .row .form-c textarea {
+        width: 94%;
+        height: 104px;
+        padding: 10px;
+    }
+
+    .contact .row .form-c input[type="submit"] {
+        border-radius: 13px;
+        border: none;
+        width: fit-content;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact .row .form-c input[type="submit"]:hover {
+        color: white;
+    }
+
+    .whichServices .contentWrapper {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid teal; */
+    }
+
+    .whichServices .contentWrapper p {
+        margin: auto;
+    }
+
+    .whichServices .contentWrapper .fa {
+        display: block;
+        margin-left: auto;
+    }
+
+    .page3Wrapper>.contentWrapper {
+        width: 90%;
+        margin: auto;
+        height: calc(100vh - 40px);
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 40px;
+        right: -100%;
+        background-color: black;
+        padding: 0 20px;
+        height: calc(100vh - 40px);
+        transition: right 0.6s ease;
+    }
+
+    .show {
+        right: 0;
+    }
+
+    nav ul li a[data-switcher] {
+        text-align: center;
+        font-size: 16.5px;
+        height: 33px;
+        line-height: 1.2;
+        letter-spacing: 0.075em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px 1px;
+        color: white;
+        transition: all ease-in-out 380ms;
+    }
+
+    nav ul li:hover a[data-switcher] {
+        letter-spacing: 3px;
+    }
+
+    nav ul .tab.is-active hr {
+        background-color: rgb(198, 199, 130);
+        height: 4.5px;
+    }
+
+    nav ul li:hover hr {
+        background-color: rgb(198, 199, 130);
+        height: 4px;
+    }
+
+    nav ul .tab.is-active a[data-switcher] {
+        font-size: 17px;
+        letter-spacing: 0.07em;
+    }
+
+    nav ul .tab hr {
+        height: 2px;
+        border-radius: 11px;
+        background-color: #fff;
+        border: none;
+    }
+
+    .pages {
+        display: none;
+    }
+}
